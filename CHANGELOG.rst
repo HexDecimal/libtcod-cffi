@@ -2,6 +2,11 @@
  Changelog
 ===========
 
+5.0.0 - 2017-07-19
+------------------
+Changed
+ - This project was merged back into python-tdl
+
 4.0.0 - 2017-06-29
 ------------------
 Added

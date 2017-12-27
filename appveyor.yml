@@ -84,10 +84,6 @@ test_script:
 on_success:
 - "C:\\Python27\\python.exe -m virtualenv py27venv"
 - py27venv\Scripts\activate.bat
-- "pip install codacy-coverage python-coveralls"
-#- coveralls
-- coverage xml
-- python-codacy-coverage -r coverage.xml
 
 deploy_script:
 - "if defined APPVEYOR_REPO_TAG_NAME %PYTHON% -m pip install twine"

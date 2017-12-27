@@ -1,76 +1,10 @@
 .. contents::
    :backlinks: top
 
-========
- Status
-========
-|VersionsBadge| |ImplementationBadge| |LicenseBadge|
-
-|PyPI| |RTD| |Appveyor| |Travis| |Coveralls| |Codecov| |Codacy| |Scrutinizer|
-
-|Requires| |Pyup|
-
 =======
  About
 =======
-This is a Python cffi_ port of libtcod_.
-
-This library is `hosted on GitHub <https://github.com/HexDecimal/libtcod-cffi>`_.
-
-Any issues you have with this module can be reported at the
-`GitHub issue tracker <https://github.com/HexDecimal/libtcod-cffi/issues>`_.
-
-The latest documentation can be found
-`here <https://libtcod-cffi.readthedocs.io/en/latest/>`_.
-
-This project was spun off from the python-tdl_ project,
-and is now it's own module.
-
-==============
- Installation
-==============
-The recommended way to install is by using pip_.
-
-With Python installed, run the following command to install libtcod-cffi::
-
-    python -m pip install libtcod-cffi
-
-This is good enough for most Python installations.
-See the requirements section if you're building from source.
-
-=======
- Usage
-=======
-This module was designed to be backward compatible with the original libtcod
-module that is distributed with libtcod.
-If you had code that runs on the original module you can use this library as a
-drop-in replacement like this::
-
-    import tcod as libtcod
-
-Guides and Tutorials for the original library should also work with this one.
-
-==============
- Requirements
-==============
-* Python 2.7+, Python 3.4+, or PyPy 5.4+
-* Windows, Linux, or MacOS.
-* Linux requires the libsdl2 package and must be installed from source.
-
-Extra requirements when installing directly from source
--------------------------------------------------------
-
-* MinGW_ must be on the Windows path for use with pycparser.
-  An equivalent C parser (such as `gcc`) must be installed on other OS's.
-* Linux requires the packages:
-  `gcc` `libsdl2-dev` `libffi-dev` `python-dev` `libomp-dev`
-* SDL2 is installed automatically on Windows and MacOS
-
-=========
- License
-=========
-libtcod-cffi is distributed under the Simplified 2-clause FreeBSD license.
-Read LICENSE.txt_ for more details.
+This projects API and documentation has been merged back into python-tdl_.
 
 .. _LICENSE.txt: https://github.com/HexDecimal/libtcod-cffi/blob/master/LICENSE.txt
 

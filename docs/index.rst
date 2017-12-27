@@ -7,10 +7,8 @@
 
 .. currentmodule:: tcod
 
-Welcome to libtcod-cffi's documentation!
-========================================
-
-Contents:
+This documentation has been moved to:
+https://python-tdl.readthedocs.io/en/latest/
 
 .. toctree::
    :maxdepth: 2

@@ -7,9 +7,6 @@ matrix:
   include:
   - os: osx
     language: generic
-    env: USE_OPENMP=true
-  - os: osx
-    language: generic
     env: USE_OPENMP=true BREW_PYTHON3=true
   - os: osx
     language: generic
@@ -64,15 +61,7 @@ before_script:
  - pip install pytest pytest-cov
 script:
 - pytest -v
-- cd dist
-- pip install --upgrade *.whl
-- python -c "import tcod"
-- cd -
 after_success:
 - pip install codacy-coverage python-coveralls codecov
-- codecov
-- coveralls
-- coverage xml
-- python-codacy-coverage -r coverage.xml
 - if [[ -n "$TRAVIS_TAG" ]]; then pip install twine; fi
 - if [[ -n "$TRAVIS_TAG" && "$TRAVIS_OS_NAME" == "osx" ]]; then twine upload --skip-existing dist/*; fi

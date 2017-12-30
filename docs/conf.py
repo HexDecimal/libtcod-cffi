@@ -18,7 +18,6 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))
 
 # -- General configuration ------------------------------------------------
 
@@ -61,7 +60,7 @@ author = u'Kyle Stewart'
 # built documents.
 #
 # The full version, including alpha/beta/rc tags.
-from tcod import __version__ as release
+release = '5.0.0'
 # The short X.Y version.
 import re
 version = re.match(r'([0-9]+\.[0-9]+).*?', release).group()

@@ -4,11 +4,11 @@
 =======
  About
 =======
-This projects API and documentation has been merged back into python-tdl_.
+This projects API and documentation has been merged into python-tcod_.
 
 .. _LICENSE.txt: https://github.com/HexDecimal/libtcod-cffi/blob/master/LICENSE.txt
 
-.. _python-tdl: https://github.com/HexDecimal/python-tdl/
+.. _python-tcod: https://github.com/libtcod/python-tcod/
 
 .. _cffi: https://cffi.readthedocs.io/en/latest/
 
